@@ -1,8 +1,15 @@
+.thead-dark{
+    background-color: #333333 !important;
+    color: #B5E853;
+}
 .greenText{
     color: #B5E853;
 }
 .whiteText{
     color: #FFF;
+}
+.tinyText{
+    font-size: 9px;
 }
 /* GENERAL */
 body{
@@ -102,7 +109,7 @@ section .heading h2{
 	transition: all 0.3s ease-in 0s;
 }
 .button1:hover{
-	background: white;
+	background: #B5E853;
 	color: #333333;
 	text-decoration: none;
 }
@@ -123,29 +130,17 @@ section .heading h2{
 	color: #fff;
 }
 
-/* XAMARIN */
-#xamarin{
+/* react */
+#react{
 	background: #fff;
 }
+#react .heading h2{
+	color: #000;
+}
 
-/* PORTFOLIO */
-#portfolio{
+/* XAMARIN */
+#xamarin{
 	background: #333333;
-}
-#portfolio .heading h2{
-	color: #fff;
-}
-#portfolio .thumbnail img{
-	width: 100%;
-	height: 100%;
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-}
-#portfolio .thumbnail img:hover{
-	width: 100%;
-	height: 100%;
-	filter: none;
-	-webkit-filter: none;
 }
 
 /* RECOMMANDATIONS */
