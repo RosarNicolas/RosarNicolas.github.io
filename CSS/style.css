@@ -1,3 +1,4 @@
+/* TOOLS */
 .thead-dark{
     background-color: #333333 !important;
     color: #B5E853;
@@ -11,6 +12,8 @@
 .tinyText{
     font-size: 9px;
 }
+
+
 /* GENERAL */
 body{
 	font-family: 'Lato', sans-serif;
