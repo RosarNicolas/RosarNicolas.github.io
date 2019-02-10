@@ -12,7 +12,13 @@
 .tinyText{
     font-size: 9px;
 }
+.whiteBackground{
+    background-color: white;
+}
 
+.whiteBackground h5{
+    color: #000;
+}
 
 /* GENERAL */
 body{
