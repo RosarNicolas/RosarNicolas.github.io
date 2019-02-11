@@ -20,6 +20,13 @@
     color: #000;
 }
 
+.boderLight{
+    border: 1px solid rgba(190,190,190,0.5);
+}
+
+.row{
+    padding: 15px
+}
 /* GENERAL */
 body{
 	font-family: 'Lato', sans-serif;
