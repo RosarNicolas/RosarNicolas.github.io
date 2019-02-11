@@ -20,12 +20,21 @@
     color: #000;
 }
 
-.boderLight{
+.borderLight{
     border: 1px solid rgba(190,190,190,0.5);
+    text-align: center;
+}
+
+.borderLight div img{
+    max-height: 400px;
 }
 
 .row{
     padding: 15px
+}
+
+.textAlignCenter{
+    text-align: center;
 }
 /* GENERAL */
 body{
