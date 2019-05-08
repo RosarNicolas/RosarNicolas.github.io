@@ -97,6 +97,7 @@ section .heading h2{
 /* Fournir un priorité supérieur à celle de bootstrap */
 .navbar li a{
 	color: #B5E853 !important;
+    font-size: 11px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a{
 	color: #B5E853 !important;
@@ -153,10 +154,14 @@ section .heading h2{
 }
 
 /* devday */
-#devday{
+#devday,
+#gamejam,
+#speeddating{
 	background: #333333;
 }
-#devday .heading h2{
+#devday .heading h2,
+#gamejam .heading h2,
+#speeddating .heading h2{
 	color: #fff;
 }
 
