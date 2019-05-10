@@ -4,7 +4,8 @@
     color: #B5E853;
 }
 .greenText{
-    color: #B5E853;
+    color: #ADD64F;
+    /*color: #B5E853;*/
 }
 .whiteText{
     color: #FFF;
@@ -18,6 +19,14 @@
 
 .whiteBackground h5{
     color: #000;
+}
+
+.darkBackground{
+    background-color: #333333;
+}
+
+.darkBackground h5{
+    color: #FFF;
 }
 
 .borderLight{
@@ -39,6 +48,7 @@
 /* GENERAL */
 body{
 	font-family: 'Lato', sans-serif;
+    font-size: 15px;
 }
 h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
@@ -65,6 +75,14 @@ section .heading{
 section .heading h2{
 	text-transform: uppercase;
 }
+
+section .headingFirst{
+	text-align: center;
+}
+section .headingFirst h2{
+	text-transform: uppercase;
+}
+
 .green-divider{
 	width: 100px;
 	height: 2px;
@@ -97,7 +115,7 @@ section .heading h2{
 /* Fournir un priorité supérieur à celle de bootstrap */
 .navbar li a{
 	color: #B5E853 !important;
-    font-size: 11px;
+    font-size: 10px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a{
 	color: #B5E853 !important;
@@ -119,12 +137,13 @@ section .heading h2{
 	text-align: center;
 	margin:0 auto;
 	float: none;
+    max-width: 350px;
 }
-#about .heading h1{
+#about .headingFirst h1{
 	color: #B5E853;
 	text-transform: uppercase;
 }
-#about .heading h1{
+#about .headingFirst h1{
 	color: #B5E853;
 }
 .button1{
@@ -229,6 +248,17 @@ footer h5{
 	font-weight: normal;
 }
 
+.sticky{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav>li>a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 
 
 
