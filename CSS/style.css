@@ -34,8 +34,8 @@
     text-align: center;
 }
 
-.borderLight div img{
-    max-height: 400px;
+.borderLight div a img{
+    max-height: 350px;
 }
 
 .row{
@@ -94,6 +94,12 @@ section .headingFirst h2{
 	height: 2px;
 	background: #fff;
 	margin: 0 auto;
+}
+
+.container .row div img{
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* MENU */
