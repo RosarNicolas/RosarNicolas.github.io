@@ -1,5 +1,5 @@
 $(function(){
-	$(".navbar a, footer a").not($('#heures')).not($('#preuves')).on("click", function(event){
+	$(".navbar a, footer a").not($('#heures')).not($('#preuves')).not('#accueil').on("click", function(event){
 		event.preventDefault();
 		var hash = this.hash;
 		

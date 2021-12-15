@@ -130,7 +130,7 @@
                 </div>
 				<!-- Competences droite -->
                 <div class="col-md-6">
-                    <img src="IMG/DEVDAY.JPG" alt="Photo Nicolas Rosar au DevDay">
+                    <img src="IMG/DEVDAY.jpg" alt="Photo Nicolas Rosar au DevDay">
                 </div>
 			</div>
 		</section>
@@ -266,11 +266,15 @@
 
 
 		<!-- footer -->
-		<footer class="text-center whiteBackground">
-			<a href=#about>
+        <footer class="text-center whiteBackground">
+            <a href=#about>
 				<span class="glyphicon glyphicon-chevron-up"></span>
 			</a>
-			<h5>© Nicolas Rosar 2019</h5>
+			<h5>© Nicolas Rosar <span id="copyright_year"></span></h5>
+            <script>
+                const year = (new Date()).getFullYear();
+                document.getElementById("copyright_year").innerHTML= year;
+            </script>
 		</footer>
 	</body>
 </html>

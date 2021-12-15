@@ -198,7 +198,11 @@
         
         <!-- footer -->
 		<footer class="text-center darkBackground">
-			<h5>© Nicolas Rosar 2019</h5>
+			<h5>© Nicolas Rosar <span id="copyright_year"></span></h5>
+            <script>
+                const year = (new Date()).getFullYear();
+                document.getElementById("copyright_year").innerHTML= year;
+            </script>
 		</footer>
     </body>
 </html>
